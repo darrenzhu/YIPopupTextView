@@ -234,8 +234,8 @@ typedef enum {
         self.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
         self.font = [UIFont systemFontOfSize:TEXT_SIZE];
         self.keyboardAppearance = UIKeyboardAppearanceAlert;
-        self.autocorrectionType = UITextAutocorrectionTypeNo;
-        self.autocapitalizationType = UITextAutocapitalizationTypeNone;
+        //self.autocorrectionType = UITextAutocorrectionTypeNo;
+        //self.autocapitalizationType = UITextAutocapitalizationTypeNone;
         self.layer.cornerRadius = 10;
         self.backgroundColor = [UIColor whiteColor];
         [_popupView addSubview:self];
