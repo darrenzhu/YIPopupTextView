@@ -250,7 +250,7 @@ typedef enum {
             [_popupView addSubview:_countLabel];
         }
         
-        CGFloat buttonRisingRatio = 0.3;
+        CGFloat buttonRisingRatio = 0.5;
         
         // close (cancel) button
         if (buttonStyle == YIPopupTextViewButtonStyleRightCancel ||
