@@ -221,7 +221,7 @@ typedef enum {
         }
         
         _backgroundView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 320, 460)];
-        _backgroundView.backgroundColor = [UIColor lightGrayColor];
+        _backgroundView.backgroundColor = [UIColor colorWithRed:0 green:0 blue:0 alpha:0.3];
         _backgroundView.alpha = 0;
         _backgroundView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
         
